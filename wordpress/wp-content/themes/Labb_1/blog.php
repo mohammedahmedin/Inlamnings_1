@@ -6,8 +6,7 @@
 <?php get_header();?>
 
 <main>
-	
-			<section>
+<section>
 				<div class="container">
 					<div class="row">
 						<div id="primary" class="col-xs-12 col-md-9">
@@ -91,6 +90,15 @@
 									<li class="pagenav">
 										<h2>Sidor</h2>
 										<ul>
+										<?php 
+						 wp_nav_menu( array(
+						'theme_location' => 'top-menu',
+						'container' => 'ul',
+						'menu_class'=> 'menu'
+					 ) );
+										
+                    
+                ?>
 											<li class="page_item current_page_item">
 												<a href="">Blogg</a>
 											</li>
@@ -147,4 +155,11 @@
 				</div>
 			</section>
 		</main>
+
+	</div>
+
+	<script src="js/script.js"></script>
+	
         <?php get_footer(); ?>
+		</body>
+</html>

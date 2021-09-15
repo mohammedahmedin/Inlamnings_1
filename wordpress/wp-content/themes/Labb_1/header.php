@@ -51,8 +51,10 @@
 				<nav id="nav">
             <div class="container">
                 <div class="row">
+				
+				   <!-- Displays a navigation menu -->
                 <?php 
-                    wp_nav_menu( array(
+						 wp_nav_menu( array(
 						'theme_location' => 'top-menu',
 						'container' => 'ul',
 						'menu_class'=> 'menu'
