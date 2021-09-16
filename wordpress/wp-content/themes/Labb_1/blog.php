@@ -91,16 +91,16 @@
 										<h2>Sidor</h2>
 										<ul>
 										<?php 
-						 wp_nav_menu( array(
-						'theme_location' => 'top-menu',
-						'container' => 'ul',
-						'menu_class'=> 'menu'
-					 ) );
+				// 		 wp_nav_menu( array(
+				// 		'theme_location' => 'top-menu',
+				// 		'container' => 'ul',
+				// 		'menu_class'=> 'menu'
+				// 	 ) );
 										
                     
-                ?>
+                // ?>
 											<li class="page_item current_page_item">
-												<a href="">Blogg</a>
+												<a href="/labb_1/wordpress/blogg/">Blogg</a>
 											</li>
 											<li class="page_item">
 												<a href="">Exempelsida</a>

@@ -16,6 +16,7 @@ add_theme_support('menus');
 register_nav_menus(
     array(
         'top-menu' => 'Top Menu',
-        'side-menu' => 'Side Menu'
+        'side-menu' => 'Side Menu',
+        'page-one4' => 'Pages4'
     )
 ); 
