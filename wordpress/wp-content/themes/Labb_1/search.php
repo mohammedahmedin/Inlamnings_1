@@ -17,9 +17,11 @@ get_header();
 					
 				</div>
 			</section>
+            <!-- loop -->
             <?php
+             $query = new WP_Query( 'post_type = post' );
         if ( have_posts() ) :
-        while ( have_post() ) : the_post();
+        while ( have_posts() ) : the_post();
         the_title();
 
         endwhile ;

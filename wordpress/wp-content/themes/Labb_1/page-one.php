@@ -18,9 +18,10 @@
                             <p>Proin imperdiet imperdiet lacus, eu dignissim nunc rutrum sit amet. Proin purus dui, tempor a mi at, congue ultrices nibh. Nulla in turpis et turpis porttitor blandit sed vitae quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in dui at lacus molestie varius sit amet eu nibh. Donec dolor massa, sollicitudin vitae urna dignissim, porta ornare velit. Nunc non tellus elit. Suspendisse ut risus eu sem sagittis sodales. Sed sed lacinia turpis. Proin nec ex ante. Nulla quis est laoreet, aliquam eros eget, venenatis sem. Morbi nulla dui, bibendum eget lacinia et, placerat ac sapien. Morbi tincidunt blandit erat ut accumsan.</p>
                         </div>
                         <aside id="secondary" class="col-xs-12 col-md-3">
+                        <!-- Displays a navigation menu. -->
                         <?php wp_nav_menu( array('theme_location' => 'page-one4',
                          'container' => 'ul',
-                          'container_class' => 'side-menu') ); ?>
+                          'menu_class' => 'side-menu') ); ?>
                         </aside>
                     </div>
                 </div>

@@ -16,6 +16,7 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="hero">
+							<!-- Retrieves template directory URI for current theme. -->
 								<img src="<?php echo get_template_directory_uri(); ?>/img/city.jpg">
 								<div class="text">
 									<h1>Hej och välkommen!</h1>
